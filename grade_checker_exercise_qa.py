@@ -1,4 +1,4 @@
-def grades(hw_score, ass_score, fin_score):
+def farts(hw_score, ass_score, fin_score):
     # Sets the Maximum Score a Student can Achieve
     max_hw_score = 25
     max_ass_score = 50
@@ -16,8 +16,4 @@ def grades(hw_score, ass_score, fin_score):
     else:
         return round(100 * user_total / max_total, 1)
     
-print(grades(25, 50, 100))
-        
-        
-        
-    
+print(farts(25, 50, 100))
